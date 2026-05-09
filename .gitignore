@@ -1,0 +1,22 @@
+# R session files
+.Rhistory
+.RData
+.Ruserdata
+
+# RStudio files
+.Rproj.user/
+*.Rproj
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Temporary files
+*.tmp
+*.log
+~$*.xlsx
+
+# Generated figure outputs may be regenerated from scripts
+# Uncomment the next lines if you prefer not to track generated figures:
+# figures/*.png
+# figures/*.pdf

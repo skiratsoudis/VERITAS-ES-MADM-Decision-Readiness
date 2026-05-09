@@ -1,0 +1,32 @@
+{
+  "title": "VERITAS-ES-MADM: Computational materials for claim verification and decision-readiness monitoring",
+  "upload_type": "software",
+  "description": "Computational implementation and reproducible case-study materials for VERITAS-ES-MADM, a fuzzy entropy\u2013synergy multicriteria decision-readiness framework for claim verification under uncertain and conflicting evidence.",
+  "creators": [
+    {
+      "name": "Kiratsoudis, Sideris",
+      "affiliation": "Department of Physics, Faculty of Sciences, Democritus University of Thrace, Kavala, Greece",
+      "orcid": "0009-0006-0584-2751"
+    },
+    {
+      "name": "Tsiantos, Vassilis",
+      "affiliation": "Department of Physics, Faculty of Sciences, Democritus University of Thrace, Kavala, Greece"
+    },
+    {
+      "name": "Spyropoulos, Alexandros Z.",
+      "affiliation": "Department of Physics, Faculty of Sciences, Democritus University of Thrace, Kavala, Greece"
+    }
+  ],
+  "access_right": "open",
+  "license": "MIT",
+  "keywords": [
+    "claim verification",
+    "misinformation monitoring",
+    "decision-readiness",
+    "fuzzy multicriteria decision analysis",
+    "entropy-based diagnostics",
+    "ES-MADM"
+  ],
+  "version": "1.0.0",
+  "language": "eng"
+}

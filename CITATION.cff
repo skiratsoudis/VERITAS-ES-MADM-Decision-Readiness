@@ -1,0 +1,27 @@
+cff-version: 1.2.0
+message: "If you use this software or computational dataset, please cite it as below."
+title: "VERITAS-ES-MADM: A Fuzzy Entropy–Synergy Decision-Readiness Framework for Claim Verification under Uncertain and Conflicting Evidence"
+type: software
+authors:
+  - family-names: Kiratsoudis
+    given-names: Sideris
+    orcid: "https://orcid.org/0009-0006-0584-2751"
+    affiliation: "Department of Physics, Faculty of Sciences, Democritus University of Thrace, Kavala, Greece"
+  - family-names: Tsiantos
+    given-names: Vassilis
+    affiliation: "Department of Physics, Faculty of Sciences, Democritus University of Thrace, Kavala, Greece"
+  - family-names: Spyropoulos
+    given-names: Alexandros Z.
+    affiliation: "Department of Physics, Faculty of Sciences, Democritus University of Thrace, Kavala, Greece"
+version: "1.0.0"
+date-released: "2026-05-09"
+repository-code: "https://github.com/skiratsoudis/VERITAS-ES-MADM-Decision-Readiness"
+license: MIT
+keywords:
+  - claim verification
+  - misinformation monitoring
+  - decision-readiness
+  - fuzzy multicriteria decision analysis
+  - entropy-based diagnostics
+  - ES-MADM
+abstract: "Computational implementation and reproducible case-study materials for VERITAS-ES-MADM, a fuzzy entropy–synergy multicriteria decision-readiness framework for claim verification under uncertain and conflicting evidence."
