@@ -1,6 +1,7 @@
 # VERITAS-ES-MADM Decision-Readiness Framework
 
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.20098226.svg)](https://doi.org/10.5281/zenodo.20098226)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.20098225.svg)](https://doi.org/10.5281/zenodo.20098225)
+[![Version DOI](https://img.shields.io/badge/version%20DOI-10.5281%2Fzenodo.20098303-blue)](https://doi.org/10.5281/zenodo.20098303)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 
 This repository contains the computational materials for **VERITAS-ES-MADM**, a fuzzy entropy–synergy multicriteria decision-readiness framework for claim verification under uncertain and conflicting evidence.
@@ -13,11 +14,20 @@ VERITAS-ES-MADM is not designed to replace automated fact-checking, evidence ret
 
 ## Repository DOI
 
-The archived release is available through Zenodo:
+The archived repository is available through Zenodo.
 
-**DOI:** [10.5281/zenodo.20098226](https://doi.org/10.5281/zenodo.20098226)
+| DOI type | DOI | Recommended use |
+|---|---|---|
+| **Concept DOI** | [10.5281/zenodo.20098225](https://doi.org/10.5281/zenodo.20098225) | General citation of the repository and all future versions. |
+| **Version DOI** | [10.5281/zenodo.20098303](https://doi.org/10.5281/zenodo.20098303) | Exact citation of the v1.0.1 release used for reproducibility. |
 
-Please cite the Zenodo record and/or the metadata provided in [`CITATION.cff`](CITATION.cff) when using the repository.
+For manuscript reproducibility, the recommended DOI is the **v1.0.1 version DOI**:
+
+```text
+https://doi.org/10.5281/zenodo.20098303
+```
+
+Please cite the Zenodo record and/or the metadata provided in [`CITATION.cff`](CITATION.cff) when using this repository.
 
 ---
 
@@ -65,6 +75,8 @@ VERITAS-ES-MADM-Decision-Readiness/
 | `docs/COMPUTATIONAL_ANALYSIS.md` | Concise computational description of the model workflow and case-study logic. |
 | `CITATION.cff` | Citation metadata for the repository. |
 | `.zenodo.json` | Zenodo archiving metadata. |
+| `LICENSE` | MIT license for the software code. |
+| `DATA_LICENSE.md` | Data-use statement for the demonstration datasets and exported outputs. |
 
 ---
 
@@ -88,6 +100,8 @@ install.packages(c(
   "forcats"
 ))
 ```
+
+Additional packages may be required depending on the local R environment and graphics device configuration. If a package is missing, install it using `install.packages("<package-name>")`.
 
 ---
 
@@ -131,9 +145,9 @@ The repository includes three scenario configurations:
 
 | Scenario | Name | Analytical role |
 |---|---|---|
-| S0 | Balanced monitoring | Reference configuration for general claim verification. |
-| S1 | Rapid-spread alert | Conservative early-warning posture under higher uncertainty and reduced readiness. |
-| S2 | Strategic-harm policy | Policy-support posture under stronger evidence maturity. |
+| **S0** | Balanced monitoring | Reference configuration for general claim verification. |
+| **S1** | Rapid-spread alert | Conservative early-warning posture under higher uncertainty and reduced readiness. |
+| **S2** | Strategic-harm policy | Policy-support posture under stronger evidence maturity. |
 
 The scenario structure allows the same monitored claim set to be evaluated under different operational priorities while preserving the same core computational model.
 
@@ -177,8 +191,8 @@ Empirical deployments should connect the framework with explicit evidence-ingest
 ```text
 Kiratsoudis, S., Tsiantos, V., & Spyropoulos, A. Z. (2026).
 VERITAS-ES-MADM Decision-Readiness Framework: Computational materials,
-case-study inputs/outputs, and figure-generation scripts (v1.0.0)
-[Software and dataset]. Zenodo. https://doi.org/10.5281/zenodo.20098226
+case-study inputs/outputs, and figure-generation scripts (v1.0.1)
+[Software and dataset]. Zenodo. https://doi.org/10.5281/zenodo.20098303
 ```
 
 Alternatively, use the citation metadata in [`CITATION.cff`](CITATION.cff).
